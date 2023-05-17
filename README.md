@@ -6,6 +6,7 @@ DXSLAM代码链接：https://github.com/ivipsourcecode/dxslam；
 将该文件夹中的代码替换DXSLAM框架中的对应位置的代码或文件夹，后运行指令
 > run_tum_cc /home/zhehan-yang/Desktop/DX-SLAM/dxslam-master-forreal/Vocabulary/DXSLAM.fbow /media/zhehan-yang/yzh3/ubuntu/datasheet/TUM/parameter/TUM1.yaml /media/zhehan-yang/yzh3/ubuntu/datasheet/TUM/Handheld_SLAM/rgbd_dataset_freiburg1_floor_deblur /media/zhehan-yang/yzh3/ubuntu/datasheet/TUM/Handheld_SLAM/rgbd_dataset_freiburg1_floor_deblur/associations.txt /media/zhehan-yang/yzh3/ubuntu/datasheet/TUM/Handheld_SLAM/rgbd_dataset_freiburg1_floor_deblur/feature_hfnet
 
+参数顺序与DXSLAM完全相同
 
 # 需要修改的位置：
 1，run_tum_cc，129行：
